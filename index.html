@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auer Concierge– Long Island, NY</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav__logo">Auer Concierge</a>
+    <ul class="nav__links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="#services">Services</a></li>
+      </li>
+      <li><a href="#faq">FAQs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn btn--outline">Book Now</a>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#faq" class="mobile-link">FAQs</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+      <li><a href="#contact" class="btn btn--primary mobile-link">Book Now</a></li>
+    </ul>
+  </div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero__slide hero__slide--2" style="position:relative;height:100%;opacity:1;">
+    <div class="hero__overlay"></div>
+    <div class="hero__content fade-up">
+      <span class="hero__eyebrow">Welcome to Auer Concierge</span>
+      <h1>Clinical care. <br>Concierge comfort.</h1>
+      <a href="#contact" class="btn btn--primary">Book Now</a>
+    </div>
+  </div>
+  <div class="hero__scroll-hint">
+    <span>Scroll</span>
+    <div class="hero__scroll-line"></div>
+  </div>
+</section>
+
+  <!-- INTRO -->
+  <section class="intro" id="about">
+    <div class="container intro__grid">
+      <div class="intro__label reveal">
+        <span>About Us</span>
+      </div>
+      <div class="intro__text reveal">
+        <h2>Long Island's premier<br>cosmetic & rehab therapist</h2>
+	<p>Auer Concierge specializes in post-operative care, lymphatic health, cancer rehabilitation, and personalized wellness services delivered in the privacy and convenience of your home.<p>
+        <a href="about.html" class="btn btn--ghost">More About Us</a>
+      </div>
+      <div class="intro__image reveal">
+        <div class="intro__image-frame">
+          <img src="assets/oils_new.jpeg" alt="treatment room" loading="lazy">
+        </div>
+        <div class="intro__badge">
+          <span>10+ Years</span>
+          <small>of excellence</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Lymphatic and Post-Op Recovery Care</span>
+      <h2>Manual lymphatic massage tailored <br> to your body's journey</h2>
+    </div>
+    <div class="services__grid">
+
+       
+      <article class="service-card reveal">
+        <div class="service-card__icon">
+	   <img src="assets/post_surgical.png" alt="Post-Surgical Recovery Icon">
+        </div>
+        <h3>Post-Surgical Recovery</h3>
+        <p>Supportive care designed to help you feel more comfortable, confident, and supported throughout your healing process after cosmetic or reconstructive surgery.</p>
+	<div class="service-card__tags">
+	   <span>Post-Operative Recovery Care</span>
+	   <span>Manual Lymphatic Drainage</span>
+	   <span>Cosmetic Surgery Recovery &amp; Rehabilitation</span>
+	   <span>Garment Assessment &amp; Education</span>
+	</div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__icon">
+	   <img src="assets/lymphedema_oncology_care.png" alt="Lymphedema and Oncology Care Icon">
+        </div>
+        <h3>Lymphedema &amp; Oncology</h3>
+        <p>Specialized therapy for individuals managing swelling, cancer-related changes, or lymphedema through gentle, evidence-informed care.</p>
+	<div class="service-card__tags">
+	   <span>Complete Decongestive Therapy</span>
+	   <span>Lymphedema Management</span>
+	   <span>Manual Lymphatic Drainage</span>
+	   <span>Compression Garment Assessment &amp; Fitting</span>
+	   <span>Cancer Rehabilitation &amp; Recovery Support</span>
+	</div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__icon">
+	   <img src="assets/rehab_wellness.png" alt="Rehabilitation & Wellness Icon"/>
+        </div>
+        <h3>Rehabilitation &amp; Wellness</h3>
+	<p>In-home occupational therapy and therapeutic support focused on restoring function, mobility, independence, and overall well-being.</p>
+	<div class="service-card__tags">
+	   <span>Therapeutic Exercise</span>
+	   <span>Functional Rehabilitation</span>
+	   <span>Home Safety &amp; Activity Modification</span>
+	   <span>Mobility &amp; Strength Support</span>
+	   <span>Home Concierge Occupational Therapy Services</span>
+	</div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- GALLERY -->
+    <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container faq__grid">
+      <div class="faq__header reveal">
+        <span class="section-label">FAQs</span>
+        <h2>Common questions</h2>
+      </div>
+      <div class="faq__list">
+        <details class="faq__item reveal">
+          <summary>How do I book an appointment?</summary>
+          <p>You can book by calling us directly. We recommend booking at least 48 hours in advance to secure your preferred time.</p>
+        </details>
+        <details class="faq__item reveal">
+          <summary>What should I expect on my first visit?</summary>
+          <p>Your first visit includes a personalized assessment and gentle manual lymphatic drainage treatment. We will review your surgical history, current swelling, comfort level, and recovery goals. Your session may include a garment assessment, skin inspection, scar assessment, and lymphatic drainage massage. </p>
+        </details>
+        <details class="faq__item reveal">
+          <summary>Is it too early to begin after my surgery?</summary>
+	  <p>Starting lymphatic therapy early, ideally within the first few days before swelling peaks, provides the best results. It helps reduce acute swelling faster, minimizes discomfort, and prevents fluid accumulation or early fibrosis. Just keep in mind that you will need explicit clearance from your surgeon before you begin.</p>
+        </details>
+        <details class="faq__item reveal">
+          <summary>What is your cancellation policy?</summary>
+          <p>We kindly ask for 24 hours' notice for cancellations or rescheduling to avoid a late cancellation fee.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info reveal">
+        <span class="section-label">Get in Touch</span>
+        <h2>Contact</h2>
+        <ul class="contact__details">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.98 2.18 2 2 0 012.96 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.08 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92v2z"/></svg>
+            (631) 278-4881 
+          </li>
+	  <li>
+	     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            heather@lymphcareathome.com
+          </li>
+        </ul>
+      </div>
+      <form class="contact__form reveal" action="https://formspree.io/f/mgobqoqn" method="POST">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Heather Auer" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="heather@lymphcareathome.com" required>
+        </div>
+        <div class="form-group">
+          <label for="service">Service of Interest</label>
+	  <select id="service" name="service">
+            <option value="">Select a service…</option>
+            <option>Garment Assessment</option>
+            <option>Manual Lymphatic Massage</option>
+            <option>Oncology Care</option>
+            <option>Scar Management</option>
+            <option>Therapeutic Exercise</option>
+            <option>Wellness</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us how we can help…"></textarea>
+        </div>
+	<input type="hidden" name="_replyto">
+        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+        <p class="form-success" id="formSuccess">Thank you! We'll be in touch soon.</p>
+      </form>
+    </div>
+  </section>
+
+<!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="footer__logo">Auer Concierge</a>
+      <p class="footer__copy">© 2026 — All Rights Reserved.</p>
+      <div class="footer__links-group">
+        <ul class="footer__links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="footer__credit">Built by <a href="https://castrotech.dev" target="_blank" rel="noopener">castrotech.dev</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- <!-1- FOOTER -1-> -->
+  <!-- <footer class="footer"> -->
+  <!--   <div class="container footer__inner"> -->
+  <!--     <a href="#" class="footer__logo">Auer Concierge</a> -->
+  <!--     <p class="footer__copy">© 2026 — All Rights Reserved.</p> -->
+  <!--     <ul class="footer__links"> -->
+  <!--       <li><a href="about.html">About</a></li> -->
+  <!--       <li><a href="#services">Services</a></li> -->
+  <!--       <li><a href="#contact">Contact</a></li> -->
+  <!--     </ul> -->
+  <!--   </div> -->
+  <!-- </footer> -->
+
+  <script src="main.js"></script>
+</body>
+</html>
